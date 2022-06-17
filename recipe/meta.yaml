@@ -1,5 +1,5 @@
 {% set name = "types-Pillow" %}
-{% set version = "9.0.19" %}
+{% set version = "9.0.20" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-Pillow-{{ version }}.tar.gz
-  sha256: bad0de01fd2b6cfdcfcab580fc4025db2b5068e6237707d8f2f4493cd4c4fe16
+  sha256: 82dea83c21c665a334b0f88b78a7d6a62503c96d0777c8a2327701d4ca7bf421
 
 build:
   number: 0
